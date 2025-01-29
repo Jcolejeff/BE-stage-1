@@ -82,8 +82,3 @@ This API is deployed on Render. Visit [[here](https://be-stage-0.onrender.com/)]
 ## Related Links
 
 - [HNG Python Developers](https://hng.tech/hire/python-developers)
-- [HNG C# Developers](https://hng.tech/hire/csharp-developers)
-- [HNG Golang Developers](https://hng.tech/hire/golang-developers)
-- [HNG PHP Developers](https://hng.tech/hire/php-developers)
-- [HNG Java Developers](https://hng.tech/hire/java-developers)
-- [HNG NodeJS Developers](https://hng.tech/hire/nodejs-developers)
