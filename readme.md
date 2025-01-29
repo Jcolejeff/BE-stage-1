@@ -4,7 +4,7 @@ This is a simple REST API built with FastAPI that returns basic information incl
 
 ## Live API URL
 
-[Your Render URL here]
+https://be-stage-0.onrender.com/
 
 ## Features
 
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-The API will be available at `http://localhost:8000`
+The API will be available at `https://be-stage-0.onrender.com/`
 
 ## API Documentation
 
@@ -77,7 +77,7 @@ curl http://localhost:8000
 
 ## Deployment
 
-This API is deployed on Render. Visit [your-api-url] to access the live version.
+This API is deployed on Render. Visit [[here](https://be-stage-0.onrender.com/)] to access the live version.
 
 ## Related Links
 
