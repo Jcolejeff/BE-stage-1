@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from datetime import datetime
+from datetime import datetime,timezone
 import pytz
 
 app = FastAPI()
@@ -28,6 +28,6 @@ def get_basic_info():
 
     return {
         "email": "ikwuhjcolejeff@gmail.com",  
-        "current_datetime": utc_now,
+        "current_datetime": datetime.now(timezone.utc).isoformat(),
         "github_url": "https://github.com/Jcolejeff/BE-stage-1"
     }
