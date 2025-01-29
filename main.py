@@ -15,7 +15,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/hire/python-developers")
+@app.get("/")
 def get_basic_info():
     """
     Returns basic information in JSON format:
