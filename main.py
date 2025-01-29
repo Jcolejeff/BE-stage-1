@@ -24,10 +24,10 @@ def get_basic_info():
       - github_url to the project's codebase
     """
     # Generate current UTC datetime in ISO 8601 format
-    utc_now = datetime.now(tz=pytz.UTC).isoformat()
+    utc_time = datetime.now(timezone.utc).replace(microsecond=0)
 
     return {
         "email": "ikwuhjcolejeff@gmail.com",  
-        "current_datetime": datetime.now(timezone.utc).isoformat(),
+        "current_datetime":  utc_time.isoformat().replace("+00:00", "Z"),
         "github_url": "https://github.com/Jcolejeff/BE-stage-1"
     }
