@@ -5,9 +5,8 @@ import pytz
 
 app = FastAPI()
 
-# Enable CORS (Cross-Origin Resource Sharing)
-# This allows your API to be accessed from different domains/browsers without restrictions.
-origins = ["*"]  # You can restrict to specific domains if you like.
+
+origins = ["*"]  
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
@@ -28,7 +27,7 @@ def get_basic_info():
     utc_now = datetime.now(tz=pytz.UTC).isoformat()
 
     return {
-        "email": "your-email@example.com",  # Replace with your real email
+        "email": "ikwuhjcolejeff@gmail.com",  
         "current_datetime": utc_now,
-        "github_url": "https://github.com/yourusername/your-repo"
+        "github_url": "https://github.com/Jcolejeff/BE-stage-1"
     }
